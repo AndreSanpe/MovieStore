@@ -1,3 +1,5 @@
+![BannerMovieSotoreIconBigger](https://github.com/AndreSanpe/MovieStore/assets/59103410/167106e5-f73d-40ed-b6ea-8416dba99875)
+
 # MovieStore
 
 Welcome to MovieStore! This repository is a movie rental web application developed using Salesforce. MovieStore allows users to browse a collection of movies, rent them, and manage their rentals. It provides a user-friendly interface for seamless movie rental and management.
