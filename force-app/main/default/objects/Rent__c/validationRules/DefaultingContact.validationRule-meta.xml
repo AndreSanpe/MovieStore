@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultingContact</fullName>
+    <active>false</active>
+    <description>Defaulting contact can not rent any Inventory Item</description>
+    <errorConditionFormula>AND(
+
+    ISNEW(),
+    ISPICKVAL( Contact__r.ContactStatus__c , &apos;Defaulting&apos;)
+
+)</errorConditionFormula>
+    <errorMessage>Defaulting Contact can not rent any Inventory Item</errorMessage>
+</ValidationRule>

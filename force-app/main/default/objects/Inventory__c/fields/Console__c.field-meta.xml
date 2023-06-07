@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Console__c</fullName>
+    <externalId>false</externalId>
+    <label>Console</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PlayStation 2 (PS2) - Sony</fullName>
+                <default>false</default>
+                <label>PlayStation 2 (PS2) - Sony</label>
+            </value>
+            <value>
+                <fullName>PlayStation 3 (PS2) - Sony</fullName>
+                <default>false</default>
+                <label>PlayStation 3 (PS2) - Sony</label>
+            </value>
+            <value>
+                <fullName>PlayStation 4 (PS2) - Sony</fullName>
+                <default>false</default>
+                <label>PlayStation 4 (PS2) - Sony</label>
+            </value>
+            <value>
+                <fullName>PlayStation 5 (PS2) - Sony</fullName>
+                <default>false</default>
+                <label>PlayStation 5 (PS2) - Sony</label>
+            </value>
+            <value>
+                <fullName>Super Nintendo Entertainment System (SNES) - Nintendo</fullName>
+                <default>false</default>
+                <label>Super Nintendo Entertainment System (SNES) - Nintendo</label>
+            </value>
+            <value>
+                <fullName>Nintendo Entertainment System (NES) - Nintendo</fullName>
+                <default>false</default>
+                <label>Nintendo Entertainment System (NES) - Nintendo</label>
+            </value>
+            <value>
+                <fullName>Nintendo Switch - Nintendo</fullName>
+                <default>false</default>
+                <label>Nintendo Switch - Nintendo</label>
+            </value>
+            <value>
+                <fullName>Nintendo Wii - Nintendo</fullName>
+                <default>false</default>
+                <label>Nintendo Wii - Nintendo</label>
+            </value>
+            <value>
+                <fullName>Game Boy - Nintendo</fullName>
+                <default>false</default>
+                <label>Game Boy - Nintendo</label>
+            </value>
+            <value>
+                <fullName>Sega Genesis - Sega</fullName>
+                <default>false</default>
+                <label>Sega Genesis - Sega</label>
+            </value>
+            <value>
+                <fullName>Xbox One - Microsoft</fullName>
+                <default>false</default>
+                <label>Xbox One - Microsoft</label>
+            </value>
+            <value>
+                <fullName>Xbox 360 - Microsoft</fullName>
+                <default>false</default>
+                <label>Xbox 360 - Microsoft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reservation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Reservation</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>This item is available!</errorMessage>
+        <filterItems>
+            <field>Inventory__c.InventoryStatus__c</field>
+            <operation>equals</operation>
+            <value>Unavailable</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Inventory__c</referenceTo>
+    <relationshipLabel>Reserved Items</relationshipLabel>
+    <relationshipName>reservation</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

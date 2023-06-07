@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Games</fullName>
+    <active>true</active>
+    <label>Games</label>
+    <picklistValues>
+        <picklist>Console__c</picklist>
+        <values>
+            <fullName>Game Boy - Nintendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nintendo Entertainment System %28NES%29 - Nintendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nintendo Switch - Nintendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nintendo Wii - Nintendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PlayStation 2 %28PS2%29 - Sony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PlayStation 3 %28PS2%29 - Sony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PlayStation 4 %28PS2%29 - Sony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PlayStation 5 %28PS2%29 - Sony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sega Genesis - Sega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super Nintendo Entertainment System %28SNES%29 - Nintendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xbox 360 - Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xbox One - Microsoft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

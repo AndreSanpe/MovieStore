@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReservationStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Reservation Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canceled</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+                <label>Reserved</label>
+            </value>
+            <value>
+                <fullName>Waiting</fullName>
+                <default>true</default>
+                <label>Waiting</label>
+            </value>
+            <value>
+                <fullName>Successful Rented</fullName>
+                <color>#33FF33</color>
+                <default>false</default>
+                <label>Successful Rented</label>
+            </value>
+            <value>
+                <fullName>Time Counting Down</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>Time Counting Down</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

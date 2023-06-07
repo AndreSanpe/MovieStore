@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rented_Itens</fullName>
+    <active>false</active>
+    <description>Rented Inventory Items can not be rent</description>
+    <errorConditionFormula>AND(
+
+    ISNEW(),
+    ISPICKVAL( Inventory_Item__r.Status__c , &apos;Rented&apos;)
+
+)</errorConditionFormula>
+    <errorMessage>This Item is already rented. Chose another one, please!</errorMessage>
+</ValidationRule>

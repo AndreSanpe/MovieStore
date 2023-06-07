@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-var-m-top_medium slds-var-m-bottom_x-large">
+        <lightning-card title="Contact's wish movie" icon-name="standard:contact">
+            <div class="slds-var-m-around_medium">
+                <lightning-input type="text" placeholder="Type your wish here" onchange={setInputWish}></lightning-input>
+            </div>
+            <div class="slds-text-align_center">
+                <lightning-button variant="brand"
+                color="primary" 
+                title="Click to register your wish" label="Click to register your wish" onclick={handleRegisterWish}></lightning-button>
+            </div>
+        </lightning-card>
+    </div>
+</template>
